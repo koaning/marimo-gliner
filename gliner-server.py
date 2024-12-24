@@ -146,7 +146,7 @@ def _(mo):
 @app.cell
 def _(app, mo):
     if mo.app_meta().mode != "edit":
-        app.run(debug=True, port=12345)
+        app.run(debug=True, port=8080)
     return
 
 
